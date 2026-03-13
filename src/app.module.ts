@@ -24,7 +24,7 @@ import { redisStore } from 'cache-manager-redis-yet';
       password: 'tu_password',
       database: 'ant_db',
       autoLoadEntities: true,
-      synchronize: true,
+      synchronize: true, //Borrar en produccion
     }),
   ],
   controllers: [AppController],
